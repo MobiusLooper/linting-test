@@ -18,7 +18,6 @@ jobs:
         uses: rocioar/gradual-black-formatter@v1
         with:
           number_of_files: 5
-          ignore_files_regex:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
