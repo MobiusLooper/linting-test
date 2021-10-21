@@ -18,7 +18,7 @@ jobs:
         uses: rocioar/gradual-black-formatter@v1
         with:
           number_of_files: 5
-          ignore_files_regex: "*test*"
+          ignore_files_regex: "one/*,two/*"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
